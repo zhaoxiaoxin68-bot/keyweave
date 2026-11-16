@@ -1,3 +1,69 @@
+# Python 字节码和包元数据
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# 本地虚拟环境和可选运行库
+.venv/
+venv/
+env/
+.linux-tk/
+
+# 构建产物、安装包和演示截图
+/build/
+/dist/
+/artifacts/
+*.whl
+*.egg
+/assets/*.dll
+
+# 测试、静态检查和覆盖率缓存
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# 本地数据库、事务文件和日志
+*.sqlite
+*.sqlite3
+*.db
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+*.db-journal
+*.db-wal
+*.db-shm
+*.log
+
+# 本地环境变量，保留可提交的示例
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# IDE、编辑器和系统临时文件
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Additional GitHub Python defaults
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
